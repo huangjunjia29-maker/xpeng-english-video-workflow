@@ -1,0 +1,13 @@
+{
+  "name": "xpeng-english-video-workflow",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Batch-oriented workflow for converting authorized XPENG source videos into reviewed English social deliverables.",
+  "scripts": {
+    "validate": "node scripts/validate-batch.mjs examples/batch.json",
+    "inspect-video": "powershell -NoProfile -ExecutionPolicy Bypass -File scripts/inspect-video.ps1",
+    "render-overlay": "powershell -NoProfile -ExecutionPolicy Bypass -File scripts/render-overlay.ps1"
+  }
+}
+

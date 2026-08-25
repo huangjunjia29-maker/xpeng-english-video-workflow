@@ -1,0 +1,11 @@
+{
+  "name": "black-header-v1",
+  "canvas": { "width": 1080, "height": 1920 },
+  "safeWidthRatio": 0.84,
+  "maxLines": 2,
+  "line1": { "color": "#FFFFFF", "fontWeight": "800" },
+  "line2": { "color": "#FFD900", "fontWeight": "800" },
+  "fallback": "manual_review",
+  "notes": "Use only when the existing title zone is a stable black header. Otherwise require a clean master or manual mask."
+}
+

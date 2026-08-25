@@ -1,0 +1,30 @@
+{
+  "batchId": "2026-08-25-xpeng-english-test",
+  "brand": "XPENG",
+  "platforms": ["x", "tiktok", "instagram", "facebook"],
+  "sourcePolicy": {
+    "feishuReadOnly": true,
+    "referenceUrl": "https://xiaopeng.feishu.cn/wiki/VnpvwJHTDiUswKkZoU5cM2n8ndc?from=from_copylink"
+  },
+  "tasks": [
+    {
+      "recordId": "EN-00001",
+      "sourceAssetId": "00026-P7",
+      "model": "P7",
+      "contentGrade": "S",
+      "sourcePath": "inputs/00026.mp4",
+      "referencePath": "inputs/chinese-reference.mp4",
+      "status": "copy_review",
+      "copyReview": "pending",
+      "renderStatus": "not_started",
+      "qaStatus": "pending",
+      "englishCaption": "This is the part people miss about driver assist: it is not just lane keeping. From this clip, XPENG's system keeps reading traffic and moving toward a clearer lane. Smooth or too assertive?",
+      "onScreen": {
+        "line1": "XPENG SMART DRIVING IN ACTION",
+        "line2": "SPOTTING OPEN LANES, ONE MOVE AT A TIME"
+      },
+      "notes": "Chinese title is burned into the vertical source; cover only with the approved black-header template."
+    }
+  ]
+}
+
