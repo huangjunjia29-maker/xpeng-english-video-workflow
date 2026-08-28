@@ -2,10 +2,11 @@
   "name": "black-header-v1",
   "canvas": { "width": 1080, "height": 1920 },
   "safeWidthRatio": 0.84,
-  "maxLines": 2,
+  "maxLines": 1,
+  "preferSingleLine": true,
+  "fitToSafeWidth": true,
   "line1": { "color": "#FFFFFF", "fontWeight": "800" },
   "line2": { "color": "#FFD900", "fontWeight": "800" },
   "fallback": "manual_review",
-  "notes": "Use only when the existing title zone is a stable black header. Otherwise require a clean master or manual mask."
+  "notes": "Use the upper blank or blurred zone. Treat screenshot boxes and arrows as annotations unless explicitly requested. Fit long titles to one line before considering a second line."
 }
-

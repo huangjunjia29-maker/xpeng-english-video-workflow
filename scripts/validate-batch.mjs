@@ -26,7 +26,9 @@ for (const [index, task] of (manifest.tasks ?? []).entries()) {
   if (task.renderStatus && !allowedRender.has(task.renderStatus)) errors.push(`${prefix}.renderStatus is invalid: ${task.renderStatus}`);
   if (task.qaStatus && !allowedQa.has(task.qaStatus)) errors.push(`${prefix}.qaStatus is invalid: ${task.qaStatus}`);
   if (typeof task.englishCaption === "string" && task.englishCaption.length > 200) errors.push(`${prefix}.englishCaption exceeds 200 characters (${task.englishCaption.length})`);
-  if (!task.onScreen?.line1 || !task.onScreen?.line2) errors.push(`${prefix}.onScreen.line1 and line2 are required`);
+  const hasSingleLine = Boolean(task.onScreen?.headline);
+  const hasTwoLines = Boolean(task.onScreen?.line1 && task.onScreen?.line2);
+  if (!hasSingleLine && !hasTwoLines) errors.push(`${prefix}.onScreen requires headline, or both line1 and line2`);
   if (task.status === "approved" && task.copyReview !== "approved") errors.push(`${prefix} cannot be approved while copyReview is not approved`);
   if (["rendered", "qa_passed", "uploaded", "checked"].includes(task.status) && task.renderStatus !== "rendered") errors.push(`${prefix} is beyond rendering but renderStatus is not rendered`);
 }
@@ -38,4 +40,3 @@ if (errors.length) {
 }
 
 console.log(`Batch validation passed: ${manifest.tasks.length} task(s), ${manifest.platforms?.length ?? 0} platform(s).`);
-

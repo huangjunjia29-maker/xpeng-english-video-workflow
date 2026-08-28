@@ -1,0 +1,7 @@
+interface:
+  display_name: "XPENG Content & Video Workflow"
+  short_description: "XPENG海外双语文案、视频剪辑、旁白字幕与标题工作流"
+  default_prompt: "Use $xpeng-content-video-workflow to process today's authorized XPENG brief, confirm directions and copy count, then prepare compliant copy and video deliverables."
+
+policy:
+  allow_implicit_invocation: true

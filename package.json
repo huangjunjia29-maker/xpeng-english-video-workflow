@@ -1,6 +1,6 @@
 {
   "name": "xpeng-english-video-workflow",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "private": true,
   "type": "module",
   "description": "Batch-oriented workflow for converting authorized XPENG source videos into reviewed English social deliverables.",
@@ -10,4 +10,3 @@
     "render-overlay": "powershell -NoProfile -ExecutionPolicy Bypass -File scripts/render-overlay.ps1"
   }
 }
-
