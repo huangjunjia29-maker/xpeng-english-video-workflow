@@ -39,7 +39,7 @@ The validator rejects duplicate IDs, missing required fields, unsupported states
 
 - Feishu pages are read-only until a dedicated test table and write scope are explicitly authorized.
 - The workflow never claims fully autonomous driving, guaranteed safety, or absolute performance from a single clip.
-- Human review remains mandatory for facts, English tone, driver-assistance wording, and final visual approval.
+- Human review remains mandatory for facts, English tone, driver-assistance wording, complete speech at every source-video cut, and final visual approval.
 - The production source must be a clean master whenever burned-in Chinese text cannot be covered reliably by the selected title template.
 
 ## Planned adapters
