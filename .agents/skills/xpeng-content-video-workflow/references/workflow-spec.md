@@ -8,6 +8,8 @@ Before each creation, ask which video form to use (source clips, image-led edits
 
 Treat user instructions as operations and attached documents as facts. Extract the full document text, tables, hyperlinks, embedded images, and relevant metadata. For cloud pages, scroll through lazy-loaded content and recount assets.
 
+Every newly supplied file, folder, and accessible cloud/source asset must be archived during intake to `D:/视频素材库`, classified by content and deduplicated against the entire library by SHA-256. Keep source files intact, index existing identical files rather than copying them again, and report any unavailable originals or inaccessible links. Follow `asset-library.md`; complete and verify archiving before calling the batch finished. On a device without this drive, report the missing destination and ask for its replacement rather than claiming success.
+
 ## Communication Directions and Copy
 
 Directions must differ in substance. Useful angles include a concrete user scene, the practical meaning of a technical metric, third-party or market evidence, and the larger company or product roadmap. Confirm directions before writing the complete batch.

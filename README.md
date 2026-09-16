@@ -24,6 +24,7 @@ The current sample is intentionally marked `copy_review` and does not render or 
 
 ## Current Production Rules (2026-09-16)
 
+- Archive every new user-supplied asset to `D:/视频素材库` during intake, classify by content, reuse identical files by SHA-256, and update the library index. Preserve originals and report missing assets; a saved source link is not a downloaded video. See the skill's `references/asset-library.md`.
 - Recommend 5-20 masters according to material quality and natural chapters; no fixed nine-master or three-per-direction template.
 - English creator narration and visible footage-source labels are optional choices to confirm before each creation.
 - Follow the adopted brief's directions and hooks. When a direction needs more hooks, extend its supplied hooks without adding unsupported claims.
