@@ -15,12 +15,21 @@ The repository contains workflow logic, skills, and templates only. Source media
 ## Quick start
 
 1. Install `.agents/skills/xpeng-content-video-workflow` at user or repository scope.
-2. Give Codex the day's authorized brief and assets. Confirm communication directions, copy count, orientation, hashtags, and source boundaries.
+2. Give Codex the day's authorized brief and assets. Confirm communication directions, copy count, orientation, hashtags, source boundaries, video form, narration choice, and whether footage-source labels should appear. Reuse decisions already made for this batch.
 3. For manifest-driven rendering, copy `examples/batch.json` and run `npm run validate -- examples/batch.json`.
 4. Inspect media with `npm run inspect-video -- -InputPath <path> -OutputPath work/metadata.json`.
 5. Render only after copy and video direction approval, then fully decode and visually inspect every deliverable.
 
 The current sample is intentionally marked `copy_review` and does not render or upload anything. See the skill's `references/migration-checklist.md` for a new-device restore test.
+
+## Current Production Rules (2026-09-16)
+
+- Recommend 5-20 masters according to material quality and natural chapters; no fixed nine-master or three-per-direction template.
+- English creator narration and visible footage-source labels are optional choices to confirm before each creation.
+- Follow the adopted brief's directions and hooks. When a direction needs more hooks, extend its supplied hooks without adding unsupported claims.
+- Respect the requested copy order, including grouping by direction for review. After optional plugin expansion, match every actual video to unique, suitable same-direction copy and export in video-file order with a filename column. Never reshuffle the matched sheet.
+
+The matching procedure is in `.agents/skills/xpeng-content-video-workflow/references/master-expansion-and-copy-matching.md`. Counts and choices from individual projects are not permanent defaults. These skill rules guide production; the small manifest validator below does not verify audiovisual matching or enforce every creative rule.
 
 ## Batch contract
 

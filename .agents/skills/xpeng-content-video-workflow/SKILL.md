@@ -14,7 +14,9 @@ Use this skill for recurring XPENG overseas content batches. Read [references/wo
 - Inventory the complete authorized source. Cloud pages may lazy-load assets; verify the final count.
 - Do not silently add old batches, local-library media, external assets, logos, music, or end cards.
 - Confirm the daily copy count and communication directions. Default to four directions, then write the full batch only after approval.
-- Confirm video orientation before rendering unless it was already decided that day. Recommend 5-15 videos from the actual material.
+- Before each creation, confirm video form, whether to add narration, and whether to display footage-source labels. English creator narration and source labels are optional, never automatic. Reuse decisions already made for the current batch.
+- Confirm video orientation before rendering unless already decided for this batch. Recommend 5-20 masters from the actual material; never assume nine or three per direction.
+- Follow the adopted brief's angles and hooks. When a direction needs more masters than its supplied hooks, extend those hooks in the same style and factual scope.
 - Deliver only the final approved version; keep working renders and QA artifacts separate.
 
 ## Copy
@@ -23,8 +25,8 @@ Use this skill for recurring XPENG overseas content batches. Read [references/wo
 - Mix concrete scenes, reactions, contrasts, technical meaning, and third-party evidence. Avoid repeating abstract claims.
 - Separate deployed capability, company-reported performance, announced rollout, and long-term roadmap. Use qualifiers such as `XPENG says`, `according to XPENG`, `is planned`, or `will support` when required.
 - Use the day's hashtags exactly as extracted from the authorized brief unless the user overrides them.
-- Validate count, allocation, numbering, shuffle state, uniqueness, facts, qualifiers, and English character limits.
-- Export one workbook with one `Copy` sheet and columns `No.`, `English`, and `中文`.
+- Validate count, allocation, numbering, requested ordering, uniqueness, facts, qualifiers, and English character limits. Group by direction when requested; never reshuffle copy after matching it to videos.
+- Export one workbook with one `Copy` sheet and columns `No.`, `English`, and `中文`. For video-matched delivery, also include `视频文件名` in exact video order.
 
 ## Videos
 
@@ -37,6 +39,7 @@ Use this skill for recurring XPENG overseas content batches. Read [references/wo
 - Decode every final file and inspect the start, middle, end, transitions, required assets, audio, subtitles, and title safe areas.
 - When narration is requested, also read [references/voiceover-broll-mode.md](references/voiceover-broll-mode.md).
 - When adding titles or editing subtitles, also read [references/title-and-subtitle.md](references/title-and-subtitle.md).
+- When the user expands masters with a plugin or requests video/copy pairing, read [references/master-expansion-and-copy-matching.md](references/master-expansion-and-copy-matching.md).
 
 ## Migration
 

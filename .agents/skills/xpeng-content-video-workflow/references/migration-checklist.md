@@ -26,3 +26,6 @@ This repository intentionally excludes source media, proprietary briefs, cloud c
 4. Approve one vertical or horizontal test render and verify 720P, 30fps, at least 12 seconds, audio, and full decode.
 5. For narration, confirm word-timed subtitles use grammatical phrases on one fixed baseline.
 6. For titles, confirm annotation marks are not reproduced, single-line layout is preferred, and text remains inside the safe area.
+7. Confirm each creation asks about video form, narration, and visible source labels unless already answered for this batch; English creator narration and source labels must not be automatic.
+8. Confirm master count is recommended from the available material (normally 5-20), not fixed at nine; extra hooks may be written in the brief's style when supplied hooks are insufficient.
+9. For expanded-video matching, verify every file's direction/content and preserve actual video order in the `Copy` sheet with a `视频文件名` column. Do not shuffle afterward.
