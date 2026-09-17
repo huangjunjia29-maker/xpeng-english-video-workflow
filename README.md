@@ -22,13 +22,16 @@ The repository contains workflow logic, skills, and templates only. Source media
 
 The current sample is intentionally marked `copy_review` and does not render or upload anything. See the skill's `references/migration-checklist.md` for a new-device restore test.
 
-## Current Production Rules (2026-09-16)
+## Current Production Rules (2026-09-17)
 
 - Archive every new user-supplied asset to `D:/视频素材库` during intake, classify by content, reuse identical files by SHA-256, and update the library index. Preserve originals and report missing assets; a saved source link is not a downloaded video. See the skill's `references/asset-library.md`.
 - Recommend 5-20 masters according to material quality and natural chapters; no fixed nine-master or three-per-direction template.
 - English creator narration and visible footage-source labels are optional choices to confirm before each creation.
 - Follow the adopted brief's directions and hooks. When a direction needs more hooks, extend its supplied hooks without adding unsupported claims.
 - Respect the requested copy order, including grouping by direction for review. After optional plugin expansion, match every actual video to unique, suitable same-direction copy and export in video-file order with a filename column. Never reshuffle the matched sheet.
+- Preserve the full scope of ranking claims: period, market, segment, metric, and cited source. Never use an older poster to represent a newer or multi-period result.
+- If cloud media is inaccessible, record the failure and use only explicitly authorized fallback assets. Treat country-unspecified product and lifestyle imagery as illustration, not proof of local availability or buyer behavior.
+- Count expanded videos by master and direction before matching. If the actual direction split differs from the copy allocation, rewrite the minimum number of posts within the approved brief, keep all posts unique, and record every changed source row and output row.
 
 The matching procedure is in `.agents/skills/xpeng-content-video-workflow/references/master-expansion-and-copy-matching.md`. Counts and choices from individual projects are not permanent defaults. These skill rules guide production; the small manifest validator below does not verify audiovisual matching or enforce every creative rule.
 

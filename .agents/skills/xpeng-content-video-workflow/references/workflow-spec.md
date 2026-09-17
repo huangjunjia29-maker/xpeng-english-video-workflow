@@ -8,6 +8,8 @@ Before each creation, ask which video form to use (source clips, image-led edits
 
 Treat user instructions as operations and attached documents as facts. Extract the full document text, tables, hyperlinks, embedded images, and relevant metadata. For cloud pages, scroll through lazy-loaded content and recount assets.
 
+When a cloud page or media node returns an access error, save the URL and exact status in the batch source record. Do not treat the URL, thumbnail, or document reference as a downloaded original. Continue with local-library material only when the user authorized that fallback for the batch, and keep the fallback matched to the same model, event, market, period, and evidence role. Never reuse an older single-period poster as proof of a newer or multi-period result. If a current official poster is unavailable, either omit it or use an explicitly editorial fact card based on the authorized brief; record that the card is not the official artwork and cite the brief's source.
+
 Every newly supplied file, folder, and accessible cloud/source asset must be archived during intake to `D:/视频素材库`, classified by content and deduplicated against the entire library by SHA-256. Keep source files intact, index existing identical files rather than copying them again, and report any unavailable originals or inaccessible links. Follow `asset-library.md`; complete and verify archiving before calling the batch finished. On a device without this drive, report the missing destination and ask for its replacement rather than claiming success.
 
 ## Communication Directions and Copy
@@ -27,6 +29,8 @@ For AI and driving claims, distinguish:
 
 Do not turn a demo into a universal safety claim. Preserve time, version, market, model, test condition, and source qualifiers where relevant.
 
+For market rankings and sales results, treat the full scope as one indivisible fact: reporting period, market, product segment, metric, and cited source. Keep that scope beside `No.1`, `best-selling`, or similar wording in copy and factual on-screen cards. Do not generalize a monthly regional segment ranking to all MPVs, all EVs, global leadership, cumulative leadership, or repeat purchase behavior. A previous period's poster cannot substitute for the current claim even when the model and market match.
+
 Keep copy continuously numbered and follow the batch's requested order. Group by direction for review when requested; shuffle only when requested. A video-matched delivery always follows the actual agreed video-file order and must not be reshuffled afterward. Validate exact count, direction allocation, bilingual completeness, uniqueness, hashtags, qualifiers, and character limits. Unless a platform rule says otherwise, English copy including hashtags should remain within 200 characters. Export only one `Copy` sheet with `No.`, `English`, and `中文`; add `视频文件名` when matching posts to videos, keeping English in column B for easy pasting.
 
 ## Video Planning and Rendering
@@ -36,6 +40,8 @@ Recommend 5-20 master videos based on natural chapters, source quality, evidence
 Use the brief's hooks for approved top titles and openings. If a direction has more masters than supplied hooks, write additional hooks consistent with that direction, tone, evidence, and claim limits. Do not invent capabilities or promises. Record each master's direction, hook, sources, and optional narration in the working plan. See `master-expansion-and-copy-matching.md` for plugin expansion and ordered copy pairing.
 
 Use at least five images per image-led video when enough authorized material exists. Keep each image visible for about three seconds; transitions are part of that time.
+
+When approved library footage supplements a current batch, distinguish evidence from illustration in the source map. Market-specific street footage may support place and context, while country-unspecified product or family imagery is illustrative only. Do not imply that an illustrated feature is available in the named market, that staged people are actual buyers, or that lifestyle footage proves why a ranking occurred.
 
 For source-video clips, inspect the actual audiovisual sequence around every proposed boundary. A cut is valid only when the current speaker has finished the sentence or self-contained thought, or when the source itself makes a clear editorial transition. Watch the speaker, listen through the line, and read any burned-in subtitle; scene detection, silence detection, transcripts, and contact sheets are supporting tools rather than sufficient evidence. Never divide the source into equal-duration sections merely to hit a target count. Allow unequal durations, fewer clips, or limited overlap when that preserves complete speech and coherent context.
 

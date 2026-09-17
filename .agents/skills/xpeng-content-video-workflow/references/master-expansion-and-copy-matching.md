@@ -16,8 +16,10 @@ The user may expand approved masters with a plugin. Expansion is optional and it
 - Inventory actual video files and determine the order the user will use to publish. For numbered filenames, use natural numeric order (`2` before `10`), not directory enumeration, upload time, or guessed master order. Record that order explicitly.
 - Identify each variant's master/direction from reliable expansion metadata and audiovisual checks. If metadata is absent, compare representative frames, title/hook, content, and audio as appropriate against approved masters. Do not assume the expansion preserves master order or cycles predictably.
 - Check every variant. For automated matching, use multiple representative positions and confidence/margin checks; manually inspect ambiguous cases and possible cross-direction mixtures. Do not claim certainty from filenames alone or from a single shared frame.
-- Assign a unique post from the same direction that fits the actual video's evidence. Same-direction membership alone is insufficient if the post mentions a scene, feature, market, or claim absent from that video. Copy is a social caption, not necessarily a verbatim transcript.
-- If there are too few suitable posts, resolve the gap before final delivery; do not duplicate posts or borrow from another direction merely to fill rows. Keep internal evidence and unresolved cases outside the publishing sheet.
+- Assign a unique post from the same direction that fits the actual video's evidence. Same-direction membership alone is insufficient if the post mentions a scene, feature, market, or claim absent from that video. Copy is a social caption, not necessarily a narration transcript.
+- Count the actual expanded videos by master and direction before assigning copy. Plugin output may be randomized and its direction distribution may differ from the original copy allocation even when total counts match.
+- If a direction has too few suitable posts, make the smallest brief-consistent copy adjustment needed to close the gap. Do not duplicate posts or borrow unchanged copy from another direction. Record the original copy number, final output row, and reason for every rewritten post, and disclose the adjustment in the delivery note.
+- Keep matching evidence outside the publishing workbook: representative-frame comparisons, confidence/margin results, manual-review decisions, master ID, and direction ID. Preserve the expanded video files unchanged when the request is only for matching.
 
 ## Publishing Workbook and QA
 
