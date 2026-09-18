@@ -3,12 +3,14 @@
 ## Top Titles
 
 - Add top titles only when authorized. For brief-driven titles, use the direction's supplied hooks first; if masters outnumber hooks, extend them in the same style and factual scope. Track which hooks were supplied and which were newly written.
+- Record whether the selected hook is opening-only or persistent. For the persistent-hook format, burn it in for the whole video and verify it in middle and end frames; do not silently impose a short intro timeout.
 - Treat circles, arrows, boxes, and other markup in a user's screenshot as positional annotation unless the user explicitly asks to reproduce them.
 - Put the title in the upper blurred or blank area, away from the main footage and burned-in subtitles.
 - Prefer one line. Reduce font size according to measured text width so the longest title stays inside the horizontal safe area. Use two lines only when a readable single line is impossible or the user requests it.
 - A batch may vary typography, weight, color, label treatment, and alignment while keeping a coherent visual family. Use supplied font examples as style references, not as text content.
 - Avoid adding decorative red frames, lines, blocks, opaque cards, or other UI elements not requested by the user.
 - Keep title position stable, readable on mobile, and free of clipping. Render representative frames from every video before finalizing.
+- On native portrait footage, preserve the full frame and choose a safe upper area that avoids faces and source captions. A restrained gradient can support contrast. Check readability at phone size; if a single-line hook becomes too small, shorten it within the brief's meaning or choose a suitable condensed font instead of shrinking indefinitely. Font size is a layout decision, not a fixed value inherited from another batch.
 
 ## Narration Subtitles
 

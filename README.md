@@ -22,7 +22,7 @@ The repository contains workflow logic, skills, and templates only. Source media
 
 The current sample is intentionally marked `copy_review` and does not render or upload anything. See the skill's `references/migration-checklist.md` for a new-device restore test.
 
-## Current Production Rules (2026-09-17)
+## Current Production Rules (2026-09-18)
 
 - Archive every new user-supplied asset to `D:/视频素材库` during intake, classify by content, reuse identical files by SHA-256, and update the library index. Preserve originals and report missing assets; a saved source link is not a downloaded video. See the skill's `references/asset-library.md`.
 - Recommend 5-20 masters according to material quality and natural chapters; no fixed nine-master or three-per-direction template.
@@ -32,6 +32,10 @@ The current sample is intentionally marked `copy_review` and does not render or 
 - Preserve the full scope of ranking claims: period, market, segment, metric, and cited source. Never use an older poster to represent a newer or multi-period result.
 - If cloud media is inaccessible, record the failure and use only explicitly authorized fallback assets. Treat country-unspecified product and lifestyle imagery as illustration, not proof of local availability or buyer behavior.
 - Count expanded videos by master and direction before matching. If the actual direction split differs from the copy allocation, rewrite the minimum number of posts within the approved brief, keep all posts unique, and record every changed source row and output row.
+- Preserve interview lead-in breaths and natural endings as well as complete words. Removing a visual end card must not automatically cut off the underlying response. Listening QA remains distinct from transcript, waveform, and frame checks.
+- Record opening-only versus persistent hook display. Persistent hooks must remain readable throughout the video; inspect the middle and end, not just the opening frame.
+- Match the actual final-video count in natural filename order, including separately reviewed shortened variants. Retain suitable original captions, supplement only direction shortages, and make the matched workbook the primary publishing link with its exact English copy range.
+- Use explicit revision filenames and update delivery links after corrections; keep old renders recoverable outside the final set.
 
 The matching procedure is in `.agents/skills/xpeng-content-video-workflow/references/master-expansion-and-copy-matching.md`. Counts and choices from individual projects are not permanent defaults. These skill rules guide production; the small manifest validator below does not verify audiovisual matching or enforce every creative rule.
 
