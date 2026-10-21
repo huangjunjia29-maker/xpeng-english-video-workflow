@@ -22,7 +22,7 @@ The repository contains workflow logic, skills, and templates only. Source media
 
 The current sample is intentionally marked `copy_review` and does not render or upload anything. See the skill's `references/migration-checklist.md` for a new-device restore test.
 
-## Current Production Rules (2026-09-18)
+## Current Production Rules (2026-10-21)
 
 - Archive every new user-supplied asset to `D:/视频素材库` during intake, classify by content, reuse identical files by SHA-256, and update the library index. Preserve originals and report missing assets; a saved source link is not a downloaded video. See the skill's `references/asset-library.md`.
 - Recommend 5-20 masters according to material quality and natural chapters; no fixed nine-master or three-per-direction template.
@@ -36,6 +36,9 @@ The current sample is intentionally marked `copy_review` and does not render or 
 - Record opening-only versus persistent hook display. Persistent hooks must remain readable throughout the video; inspect the middle and end, not just the opening frame.
 - Match the actual final-video count in natural filename order, including separately reviewed shortened variants. Retain suitable original captions, supplement only direction shortages, and make the matched workbook the primary publishing link with its exact English copy range.
 - Use explicit revision filenames and update delivery links after corrections; keep old renders recoverable outside the final set.
+- For story-led batches, follow each brief angle's shooting logic: hook, matched visual evidence, and payoff. Review one complete sample before scaling; distinguish stories rather than merely shuffling images. Honor requests for stable photos without shaking or simulated zoom.
+- Use the latest approved voice presets when narration is requested, and time each visual scene from its actual audio plus natural release. Narration does not automatically require lower subtitles. Keep browser playback, transcription checks, and actual listening QA distinct.
+- Select BGM by story mood. When originals are requested separately, deliver complete hash-deduplicated tracks in one flat audio-only folder, with selection and attribution notes beside it; keep the masters without BGM when requested. Track counts, voices, and sample mix levels are not permanent defaults.
 
 The matching procedure is in `.agents/skills/xpeng-content-video-workflow/references/master-expansion-and-copy-matching.md`. Counts and choices from individual projects are not permanent defaults. These skill rules guide production; the small manifest validator below does not verify audiovisual matching or enforce every creative rule.
 

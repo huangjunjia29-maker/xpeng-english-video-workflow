@@ -36,11 +36,12 @@ Use this skill for recurring XPENG overseas content batches. Read [references/wo
 - Preserve mandatory asset order and batch coverage. Verify 100% coverage when requested.
 - Render at 720P: vertical `720x1280`, horizontal `1280x720`, 30fps, at least 12 seconds.
 - Image-led videos normally use at least five images at about three seconds each; transition time is included in that slot.
+- For story-led edits, follow the brief's proposed shooting logic: hook, visual evidence, and a closing payoff. Approve a complete sample before scaling a new format; vary the narrative rather than merely shuffling images. Keep photos stable when requested, without simulated shaking or zoom motion.
 - For source-video edits, watch and listen to each speaking segment before choosing boundaries. Keep complete thoughts together with their lead-in breath, final syllables, and natural release; do not infer cuts from equal durations, scene detection, contact sheets, or silence detection alone.
 - When the user supplies a manually edited/approved clip and asks only for reframing or format conversion, treat that edit as locked: do not recut, reorder, retime, or add creative elements unless explicitly requested.
 - Avoid black frames, clipped text, stretching, jump frames, unrelated logos, and source end cards.
 - Decode every final file and inspect the start, middle, end, transitions, required assets, audio, subtitles, and title safe areas.
-- When narration is requested, also read [references/voiceover-broll-mode.md](references/voiceover-broll-mode.md).
+- When narration or a separate music pack is requested, also read [references/voiceover-broll-mode.md](references/voiceover-broll-mode.md).
 - When adding titles or editing subtitles, also read [references/title-and-subtitle.md](references/title-and-subtitle.md).
 - When the user expands masters with a plugin or requests video/copy pairing, read [references/master-expansion-and-copy-matching.md](references/master-expansion-and-copy-matching.md).
 
